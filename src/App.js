@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./App.css"
 
 function App() {
   const [hoursTimer, setHoursTimer] = useState("10");
@@ -39,11 +40,11 @@ function App() {
 
   return (
     <div>
-      <span>{hoursTimer}</span>
-      <span>Hours</span>
-      <span>{minutesTimer}</span>
-      <span>Minutes</span>
-      <span>{secondsTimer}</span>
+      <span>{hoursTimer} </span>
+      <span>Hours </span>
+      <span>{minutesTimer} </span>
+      <span>Minutes </span>
+      <span>{secondsTimer} </span>
       <span>Seconds</span>
     </div>
   );
