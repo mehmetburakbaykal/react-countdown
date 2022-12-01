@@ -1,6 +1,6 @@
 # React Countdown
 
-Trial of usage of useState and useEffect.
+Understanding usage of useState and useEffect.
 
 Countdown from a specified date.
 
